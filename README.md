@@ -46,3 +46,17 @@ Getting all objects photographed ends the game.
 * Think of a different control for buttons - maybe sensitive things (like touchpad?).
 * The stickers could also be attached to a chair's handles.
 
+
+# A new and fresh game idea
+
+## An orb-like controller with LEDs
+
+A sphere type of controller with a lot of LEDs all around it. An LED light up when you face it (the front one).
+The idea is to make a line that is represented on the screen. The ball on the screen rotates accordingly to the physical ball.
+The orb itself can be printed with a 3D printer with a lot of holes to stick LEDs in there. The lines on the screen will be
+generated randomly. To make it feel like the player is doing everything right, a new line will be drawn on top of
+the generated one to represent how accurate the player is doing.
+
+Will need a bunch of LEDs as well as understand how to connect all of them into the Arduino's broadboard. 
+In addition, will need a "thing" to represent position/rotation of the orb, so that it will be readable on the screen.
+Also, understand how to make it to light up only the front LED and not a random one (find a fron position/rotation).
